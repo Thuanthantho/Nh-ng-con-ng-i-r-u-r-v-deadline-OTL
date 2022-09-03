@@ -5,7 +5,7 @@ import static java.nio.file.StandardOpenOption.*;
 public class Account {
 
     Scanner s = new Scanner(System.in);
-    String filename = "C:\\Users\\Will\\IdeaProjects\\s3879343 test1\\account.txt";
+    String filename = "C:\\account.txt"; //o day mn nhap dia chi file account.txt de chay. thu~
     public Account() {
         try {
             System.out.println("------------------------------------");
