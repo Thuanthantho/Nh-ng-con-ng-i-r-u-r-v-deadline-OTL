@@ -60,9 +60,9 @@ public class Account {
                 System.out.println("invalid username or password!");
             }
             reader.close();
-            System.out.println("Press any key to continue...");
+            System.out.println("Press any key to show menu...");
             String proc = s.nextLine();
-            new Account();
+            LoggedIn();
         }catch(Exception ex){
             System.out.print(ex.getMessage());
         }
@@ -103,6 +103,119 @@ public class Account {
             System.out.print(ex.getMessage());
         }
     }
+    void LoggedIn(){
+        try {
+            System.out.println("------------------------------------");
+            System.out.println("-1: Show all items");
+            System.out.println("-2: Back");
+            System.out.println("------------------------------------");
+            System.out.println("Enter Choice");
+            String choice = s.nextLine();
+            if (choice.equals("1")) {
+                readfile();
+                LoggedIn();
+            }
+            else if (choice.equals("2")) {
+                new Account();
+            }
+            else {
+                System.out.println("Invalid choice!");
+                System.out.println("Press any key to continue...");
+                String proc = s.nextLine();
+                LoggedIn();
+            }
+        } catch (Exception ex) {
+            System.out.print(ex.getMessage());
+        }
+    }
+    void readfile()
+    {
+        ArrayList<String> nameList = new ArrayList<String>(5);
+        ArrayList<String> numberList = new ArrayList<String>(5);
+        ArrayList<String> priceList = new ArrayList<String>(5);
+        ArrayList<String> CategoryList = new ArrayList<String>(5);
+
+        try {
+
+            String nameNumberString;
+            String name;
+            String number;
+            String Price;
+            String Category;
+//            String nameArray[];
+//            String numberArray[];
+//            String PriceArray[];
+//            String CategoryArray[];
+            int index;
+
+            // Using file pointer creating the file.
+            File file = new File("C:\\Users\\Will\\Documents\\GitHub\\programmming1\\OrderManagementSystem\\items.txt");
+
+            if (!file.exists()) {
+
+                // Create a new file if not exists.
+                file.createNewFile();
+            }
+
+            // Opening file in reading and write mode.
+
+            RandomAccessFile raf
+                    = new RandomAccessFile(file, "rw");
+            boolean found = false;
+
+            // Traversing the file
+            // getFilePointer() give the current offset
+            // value from start of the file.
+            while (raf.getFilePointer() < raf.length()) {
+
+                // reading line from the file.
+                nameNumberString = raf.readLine();
+
+                // splitting the string to get name and
+                // number
+                String[] lineSplit
+                        = nameNumberString.split("!");
+
+                // separating name and number.
+                name = lineSplit[0];
+                number =lineSplit[1];
+                Price =lineSplit[2];
+                Category =lineSplit[3];
+
+                nameList.add(name);
+                numberList.add(number);
+                priceList.add(Price);
+                CategoryList.add(Category);
+
+
+                // Print the contact data
+                System.out.println(
+                        "ID: " + name + "\n"
+                                + "Title: " + number + "\n"
+                                + "Price: " + Price + "\n"
+                                + "Category: " + Category + "\n");
+
+            }
+//            System.out.println(nameList);
+//            System.out.println(numberList);
+//            System.out.println(priceList);
+//            System.out.println(CategoryList);
+//            System.out.println(nameList);
+        }
+
+        catch (IOException ioe)
+        {
+
+            System.out.println(ioe);
+        }
+        catch (NumberFormatException nef)
+        {
+
+            System.out.println(nef);
+        }
+
+
+    }
     public static void main(String[] args){
         System.out.println("*********************************");
         System.out.println("* COSC2081 GROUP ASSIGNMENT     *\n" +
@@ -116,5 +229,6 @@ public class Account {
         System.out.println("*********************************\n");
 
         new Account();
+
     }
 }
