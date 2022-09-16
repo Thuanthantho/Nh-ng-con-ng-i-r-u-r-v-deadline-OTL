@@ -6,14 +6,15 @@ public class IDGen {
     private static ArrayList<String> cusIDList = new ArrayList<>(2);
     private static String cus_ID;
 
-    public static String IDGenerate() {
+    public static <string> String IDGenerate() {
+
         try {
             BufferedReader br = new BufferedReader(new FileReader("account.txt"));
             String line;
             String question = "";
             line = br.readLine();
             while ((line = br.readLine()) != null) {
-                if ( line.trim().length() == 0 ) {
+                if (line.trim().length() == 0) {
                     continue;  // Skip blank lines
                 } else {
                     String[] lineSplit = line.split(",");
@@ -31,15 +32,21 @@ public class IDGen {
 //                    System.out.println("Product ID found in the ID list.");
 //                }
 //            }
-        int a  = cusIDList.size();
+        int a = cusIDList.size();
 
-        for (int i = 0; i <= a; i ++){
-            if (i == a ){
-                IDaddcus = "C00" + (a + 1);
-                cusIDList.add(cus_ID);
+
+        String IDaddcus_final = null;
+        for (int i = 0; i <= a; i++) {
+            IDaddcus = "";
+            int IDaddcus_num;
+            if (i == a) {
+                IDaddcus = String.valueOf(cusIDList.get(a - 1));
+                IDaddcus_num = Integer.parseInt(IDaddcus.substring(1, 4)) + 1;
+                IDaddcus_final = "C00" + Integer.toString(IDaddcus_num);
+                cusIDList.add(IDaddcus_final);
             }
         }
-        return IDaddcus;
+        return IDaddcus_final;
 
     }
 
