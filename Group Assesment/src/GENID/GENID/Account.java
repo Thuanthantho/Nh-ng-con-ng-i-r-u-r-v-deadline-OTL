@@ -1,7 +1,6 @@
+package GENID;
+
 import java.util.*;
-import java.nio.file.*;
-import java.io.*;
-import static java.nio.file.StandardOpenOption.*;
 public class Account {
 
     Scanner s = new Scanner(System.in);

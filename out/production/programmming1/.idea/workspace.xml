@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="667da8ef-798c-465f-927e-3f5c9ae79040" name="Changes" comment="">
+    <list default="true" id="1c1520c5-78d6-4de9-80d4-6ac53e3c77e6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GENID/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GENID/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GENID/IDGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GENID/IDGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GENID/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GENID/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GENID/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GENID/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GENID/account.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/GENID/account.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2DHzk6NbVncPlVJ0G8xv2eWpnyD" />
+  <component name="ProjectId" id="2EFSepnxYOqbsI9juiaKXPEJ1kK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,34 +29,42 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="CSVFileStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CSVFileStream" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CSVFileStream" />
       <module name="Group Assesment" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.CSVFileStream" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="667da8ef-798c-465f-927e-3f5c9ae79040" name="Changes" comment="" />
-      <created>1660370942425</created>
+      <changelist id="1c1520c5-78d6-4de9-80d4-6ac53e3c77e6" name="Changes" comment="" />
+      <created>1662189940684</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1660370942425</updated>
-      <workItem from="1660370944058" duration="2524000" />
-      <workItem from="1662181323664" duration="6969000" />
-      <workItem from="1663467413794" duration="563000" />
+      <updated>1662189940684</updated>
+      <workItem from="1662189943535" duration="3549000" />
+      <workItem from="1663324351474" duration="34000" />
+      <workItem from="1663324404941" duration="35000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.nio.file.NoSuchFileException" package="java.nio.file" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

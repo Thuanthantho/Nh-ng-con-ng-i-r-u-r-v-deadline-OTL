@@ -1,3 +1,5 @@
+package GENID;
+
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -17,7 +19,7 @@ public class Register {
             OutputStream output = new BufferedOutputStream(Files.newOutputStream(path, APPEND));
             BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(output));
             System.out.println("-----REGISTER-----");
-            cusID = IDGen.IDGenerate();
+            cusID = GENID.IDGen.IDGenerate();
             System.out.print("Enter Name: ");
             String Name = s.nextLine();
             System.out.print("Enter Address: ");

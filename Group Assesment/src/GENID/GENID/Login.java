@@ -1,3 +1,5 @@
+package GENID;
+
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -9,7 +11,7 @@ import java.util.Scanner;
 public class Login {
 
     static Scanner s = new Scanner(System.in);
-    static String filename = "C:\\Users\\Admin\\IdeaProjects\\Testing\\OrderManagementSystem\\account.txt";
+    static String filename = "Group Assesment/src/GENID/account.txt";
 
     static void login(){
         try{
