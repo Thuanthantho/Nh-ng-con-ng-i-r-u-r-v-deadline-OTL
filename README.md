@@ -4,7 +4,7 @@ Our group's member:
 3. Quach Nhat Huy (s3879343)
 4. Vo Ngoc Diem Tien (s3911365)
 
-GitHub URL: https://github.com/Thuanthantho/Nh-ng-con-ng-i-r-u-r-v-deadline-OTL
+GitHub URL: https://github.com/Thuanthantho/Nh-ng-con-ng-i-r-u-r-v-deadline-OTL/tree/main
 
 Youtube URL: 
 
