@@ -14,7 +14,7 @@ The admin account:
 
 The member acount:
 + username: thuan123
-+password: 123456
++ password: 123456
 
 How to use:
 When you click the program, the welcome home screenw will occur to introduct about our group. And then, a lof of functions in requirements will appear in program. Therefore, follow our step to view all functions of its program.
