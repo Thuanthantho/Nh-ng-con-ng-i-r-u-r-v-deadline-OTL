@@ -9,13 +9,17 @@ GitHub URL: https://github.com/Thuanthantho/Nh-ng-con-ng-i-r-u-r-v-deadline-OTL/
 Youtube URL: 
 
 The admin account: 
-+ admin: admin
++ username: admin
 + password: admin
+
+The member acount:
++ username: thuan123
++password: 123456
 
 How to use:
 When you click the program, the welcome home screenw will occur to introduct about our group. And then, a lof of functions in requirements will appear in program. Therefore, follow our step to view all functions of its program.
 
-*Note: Because we have some problems with folder directory with text files. So when you start the program, if some errors related to text file folder, please excuse us and please help me to change the folder path to work effectively. We apologize for our inconvinience too much. 
+***Note: Because we have some problems with folder directory with text files. So when you start the program, if some errors related to text file folder, please excuse us and please help me to change the folder path to work effectively. We apologize for our inconvinience too much. 
 
 Thanks for reading
 
