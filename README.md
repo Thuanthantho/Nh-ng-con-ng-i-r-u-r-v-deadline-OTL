@@ -15,4 +15,7 @@ The admin account:
 How to use:
 When you click the program, the welcome home screenw will occur to introduct about our group. And then, a lof of functions in requirements will appear in program. Therefore, follow our step to view all functions of its program.
 
+*Note: Because we have some problems with folder directory with text files. So when you start the program, if some errors related to text file folder, please excuse us and please help me to change the folder path to work effectively. We apologize for our inconvinience too much. 
+
 Thanks for reading
+
