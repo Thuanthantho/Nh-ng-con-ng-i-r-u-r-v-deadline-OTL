@@ -1,0 +1,4 @@
+145,Iphone XS,10.000.000,Phone
+433,Macbook Pro,60.000.00,Laptop
+847,Acer,35.000.000,Laptop
+829,HeaPoo,66.000.000,Headset
