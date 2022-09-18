@@ -1,0 +1,7 @@
+ID, Title, Price, Catetory
+I001, Dell XPS 17,5.5, Laptop
+I002, Macbook Pro 15, 8.5, Laptop
+I003, Samsung Galaxy S22, 4.5, Phone
+I004, Iphone 13 PM, 7.5, Phone
+I005, Harman Kardon, 3.5, Earbud
+I006, Marshall, 6, Headset
