@@ -6,7 +6,8 @@ Our group's member:
 
 GitHub URL: https://github.com/Thuanthantho/Nh-ng-con-ng-i-r-u-r-v-deadline-OTL/tree/main
 
-Youtube URL: 
+Youtube URL: https://www.youtube.com/watch?v=fbSnVFNS7uw
+
 
 The admin account: 
 + username: admin
